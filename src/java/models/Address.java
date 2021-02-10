@@ -44,29 +44,29 @@ public class Address implements Serializable {
     @Basic(optional = false)
     @Column(name = "ID")
     private Integer id;
-    @Size(max = 100)
+    //@Size(max = 50)
     @Column(name = "FIRSTNAME")
     private String firstname;
-    @Size(max = 100)
+    //@Size(max = 50)
     @Column(name = "LASTNAME")
     private String lastname;
-    @Size(max = 100)
+    //@Size(max = 50)
     @Column(name = "ADDRESS")
     private String address;
-    @Size(max = 5)
+    //@Size(max = 5)
     @Column(name = "CODE")
     private String code;
-    @Size(max = 100)
+   // @Size(max = 50)
     @Column(name = "CITY")
     private String city;
     // @Pattern(regexp="[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?", message="Invalid email")//if the field contains email address consider using this annotation to enforce field validation
-    @Size(max = 100)
+    //@Size(max = 50)
     @Column(name = "EMAIL")
     private String email;
-    @Size(max = 10)
+   // @Size(max = 50)
     @Column(name = "DATE")
     private String date;
-    @Size(max = 100)
+    //@Size(max = 50)
     @Column(name = "TITLE")
     private String title;
 
